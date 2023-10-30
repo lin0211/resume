@@ -52,7 +52,7 @@ h1 {
 
 main {
   font-family: "Montserrat", sans-serif;
-  margin: 20px;
+  margin: 30px;
 }
 
 h2 {
@@ -83,6 +83,25 @@ h2 {
 .project {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.fa-star {
+  color: #7a4f8c;
+  margin: 5px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.skill h3 {
+  min-height: 50px;
 }
 
 footer {
