@@ -2,59 +2,159 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Sirlin's Resume" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="SIRLIN JEONG" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/cde364b520.js"
+      crossorigin="anonymous"
+    ></script>
     <title>SIRLIN's Resume</title>
   </head>
   <body>
-    <div class="top">
-
-      <header>
-        <div class="logo"><img id="logo" src="./images/logo.png" alt="SL"></div>
-        <div class="namePosition">
-          <h1>SIRLIN JEONG</h1>
-          <p class="position">WEB DEVELOPER</p>
-        </div>
-      </header>
-      <main>
-        <div class="main-left">
-          <section class="part">
-            <h2>EDUCATION</h2>
-            <div class="edu">            
-              <div class="float-Wrap">
-                <h3 class="section-left">INTERNET APPLICATION AND WEB DEVELOPMENT</h3>
-                <p class="section-right">Sep.2019 - Apr.2021</p>
-              </div>
-              <p class="college">Fanshawe College, London, Canada</p>
-              <p class="gpa">GPA: 4.04/4.20</p>
+    <header>
+      <div class="logo"><img id="logo" src="./images/logo.png" alt="SL" /></div>
+      <div class="namePosition">
+        <h1>SIRLIN JEONG</h1>
+        <p class="position">WEB DEVELOPER</p>
+      </div>
+    </header>
+    <main>
+      <div class="main-left">
+        <section class="part" id="education">
+          <h2>EDUCATION</h2>
+          <div class="edu">
+            <div class="float-Wrap">
+              <h3 class="section-left">
+                INTERNET APPLICATION AND WEB DEVELOPMENT
+              </h3>
+              <p class="section-right">Sep.2019 - Apr.2021</p>
             </div>
-            <div class="edu">            
-              <div class="float-Wrap">
-                <h3 class="section-left">CULTURE HERITAGE CONSERVATION SCIENCE</h3>
-                <p class="section-right">Mar.2010 - Feb.2015</p>
-              </div>
-              <p class="college">Gongju National University, Gongju, Republic of Korea</p>
+            <p class="college">Fanshawe College, London, Canada</p>
+            <p class="gpa">GPA: 4.04/4.20</p>
+          </div>
+          <div class="edu">
+            <div class="float-Wrap">
+              <h3 class="section-left">
+                CULTURE HERITAGE CONSERVATION SCIENCE
+              </h3>
+              <p class="section-right">Mar.2010 - Feb.2015</p>
             </div>
-          </section>
-        </div>
-        <section class="part">
-          <h2>PROJECTS</h2>
+            <p class="college">
+              Gongju National University, Gongju, Republic of Korea
+            </p>
+          </div>
         </section>
-        <div class="main-right"></div>
-    </div>
-
-      <footer>
-        <div class="contact">
-          <p class="contact-num"><i class="fa-solid fa-phone"></i>010-3480-6966</p>
-          <p class="contact-mail"><i class="fa-solid fa-envelope"></i>slinj0211@gmail.com</p>
-          <p class="contact-git"><i class="fa-brands fa-github"></i><a href="https://github.com/lin0211">https://github.com/lin0211</a> </p>
-          <p class="contact-site"><i class="fa-solid fa-globe"></i><a href="https://sirlinj211.github.io/portfolio/">https://sirlinj211.github.io/portfolio/</a> 
-          </p>
-          <p class="contact-linkedIn"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/sirlinjeong-38495422b/">https://www.linkedin.com/in/sirlinjeong-38495422b/</a>
-          </p>
+      </div>
+      <section class="part" id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project">
+          <h3>APPLICATION TEAM PROJECT - RENTAL BUDDY</h3>
+          <ul>
+            <li>Developed in PHP, MariaDB, JavaScript</li>
+            <li>
+              Handled the crud functions of users, landlord and rental
+              properties
+            </li>
+            <li>
+              Built display function of vacancy rental property for visitors
+            </li>
+          </ul>
         </div>
-      </footer>
-  </body>
+        <div class="project">
+          <h3>PERSONAL PROJECT - MOONSTONE STUDIO</h3>
+          <ul>
+            <li>Developed in HTML, CSS, JavaScript, React.JS, Firebase</li>
+            <li>
+              Built Images catalog from firebase, Images slide function and live
+              review and rating system
+            </li>
+            <li>Displayed location on google maps</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>LAMP TEAM PROJECT - ALBERTO-S-PIZZARIA</h3>
+          <ul>
+            <li>Developed in LINUX, Apache, MySQL, PHP</li>
+            <li>
+              Handled the function of order system, order summary and simple
+              authentication.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="part" id="experience">
+        <h2>EXPERIENCE</h2>
+        <div class="edu">
+          <div class="float-Wrap">
+            <h3 class="section-left">RESEARCHER</h3>
+            <p class="section-right">Sep.2019 - Apr.2021</p>
+          </div>
+          <address>
+            National Research Institute of Cultural Heritage | Deajeon, Korea
+          </address>
+          <ul>
+            <li>
+              Collected, measured, and analyzed raw data for classification by
+              characteristics of materials.
+            </li>
+            <li>
+              Identified key factors for material properties by the difference
+              between traditional and modern processes.
+            </li>
+            <li>
+              Organized and visualized all experimental data to find factors
+              that can affect materials by deterioration degree, process, and
+              region.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="part" id="skills">
+        <h2>SKILLS</h2>
+        <div class="skill">
+          <h3>Programming Languages</h3>
+        </div>
+      </section>
+    </main>
 
-  <script src="https://kit.fontawesome.com/cde364b520.js" crossorigin="anonymous"></script>
+    <footer>
+      <address class="contact">
+        <p class="contact-num">
+          <i class="fa-solid fa-phone"></i
+          ><a href="tel:+821034806966">010-3480-6966</a>
+        </p>
+        <p class="contact-mail">
+          <i class="fa-solid fa-envelope"></i
+          ><a href="mailto:slinj0211@gmail.com">slinj0211@gmail.com</a>
+        </p>
+        <p class="contact-git">
+          <i class="fa-brands fa-github"></i
+          ><a href="https://github.com/lin0211" target="_blank" rel="noopener"
+            >https://github.com/lin0211
+          </a>
+        </p>
+        <p class="contact-site">
+          <i class="fa-solid fa-globe"></i
+          ><a
+            href="https://sirlinj211.github.io/portfolio/"
+            target="_blank"
+            rel="noopener"
+            >https://sirlinj211.github.io/portfolio/</a
+          >
+        </p>
+        <p class="contact-linkedIn">
+          <i class="fa-brands fa-linkedin"></i
+          ><a
+            href="https://www.linkedin.com/in/sirlinjeong-38495422b/"
+            target="_blank"
+            rel="noopener"
+            >https://www.linkedin.com/in/sirlinjeong-38495422b/</a
+          >
+        </p>
+      </address>
+    </footer>
+  </body>
 </html>
