@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&family=Noto+Serif:wght@300;600&family=Rubik:wght@700&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+}
+
+.top {
+  margin: 20px;
+}
+
+h1 {
+  color: #464a4e;
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 15px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #efe4f2;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.namePosition {
+  text-align: center;
+  padding-top: 60px;
+  background-color: #efe4f2;
+  height: 140px;
+}
+
+.position {
+  color: #7a4f8c;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  color: #7a4f8c;
+  font-size: 28px;
+}
+
+.edu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.float-Wrap {
+  overflow: hidden;
+}
+
+.section-left {
+  float: left;
+}
+
+.section-right {
+  float: right;
+}
+
+footer {
+  background-color: #a47bc2;
+  margin-bottom: 0;
+  padding: 20px 20px 20px 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #efe4f2;
+}
+
+i {
+  width: 5px;
+  height: 5px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #efe4f2;
+}
