@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&family=Noto+Serif:wght@300;600;700&family=Rubik:wght@700&display=swap");
 
+:root {
+  --main-pink-color: #efe4f2;
+  --main-purple-color: #7a4f8c;
+  --main-logo-color: #a47bc2;
+  --main-grey-color: #464a4e;
+}
+
 * {
   margin: 0;
 }
@@ -11,8 +18,12 @@ body {
   margin: 20px;
 }
 
+header {
+  margin: 10px 20px 0 20px;
+}
+
 h1 {
-  color: #464a4e;
+  color: var(--main-grey-color);
   font-size: 48px;
   margin-bottom: 20px;
   font-family: "Rubik", sans-serif;
@@ -22,7 +33,7 @@ h1 {
 #logo {
   width: 100px;
   height: 100px;
-  border: 5px solid #efe4f2;
+  border: 5px solid var(--main-pink-color);
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -38,12 +49,12 @@ h1 {
 .namePosition {
   text-align: center;
   padding-top: 60px;
-  background-color: #efe4f2;
+  background-color: var(--main-pink-color);
   height: 140px;
 }
 
 .position {
-  color: #7a4f8c;
+  color: var(--main-purple-color);
   font-size: 25px;
   letter-spacing: 10px;
   font-family: "Noto Serif", serif;
@@ -58,8 +69,20 @@ main {
 h2 {
   font-family: "Noto Serif", serif;
   font-weight: 700;
-  color: #7a4f8c;
+  color: var(--main-purple-color);
   font-size: 30px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+#skills > h2 {
+  text-align: center;
 }
 
 .edu {
@@ -86,12 +109,13 @@ h2 {
 }
 
 .fa-star {
-  color: #7a4f8c;
+  color: var(--main-purple-color);
   margin: 5px;
 }
 
 .skill {
   text-align: center;
+  border: 4px solid var(--main-pink-color);0
 }
 
 .grid {
@@ -100,25 +124,48 @@ h2 {
   grid-gap: 10px;
 }
 
-.skill h3 {
+.skill {
+  min-width: 195px;
+  /* padding: 5px; */
+}
+
+.card-title {
   min-height: 50px;
+  border-bottom: 4px solid var(--main-pink-color);
+  margin: auto;
+}
+
+/* .card-title h3 {
+  margin: auto;
+} */
+
+ul {
+  padding: 0 0 0 30px;
+}
+
+.tasks {
+  padding: 0 0 0 20px;
+}
+
+.tasks > li {
+  list-style-type: "- ";
 }
 
 footer {
-  background-color: #a47bc2;
+  background-color: var(--main-logo-color);
   margin-bottom: 0;
   padding: 20px 20px 20px 30px;
   font-family: "Montserrat", sans-serif;
-  color: #efe4f2;
+  color: var(--main-pink-color);
 }
 
 i {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   margin-right: 20px;
 }
 
 a {
   text-decoration-line: none;
-  color: #efe4f2;
+  color: var(--main-pink-color);
 }
